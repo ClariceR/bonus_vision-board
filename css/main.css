@@ -19,18 +19,22 @@ body {
     float: left;
     width: 400px;
     box-sizing: border-box;
+    line-height: 10px;
 }
 
 .small-block {
     height: 210px;
+    padding-top: 18px
 }
 
 .large-block {
     height: 430px;
+    padding-top: 55px
 }
 
 .left-align {
     text-align: left;
+    padding-left: 40px;
 }
 
 .center-align {
@@ -39,5 +43,44 @@ body {
 
 .right-align {
     text-align: right;
+    padding-right: 40px;
+}
+
+.light-bg {
+    background: #fff;
+}
+
+.dark-bg {
+    background: #3B3B3B;
+}
+
+h1 {
+    color: #fff;
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 30px;
+}
+
+#year {
+    font-family: 'Permanent Marker';
+}
+
+h2 {
+    text-transform: capitalize;
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    background: #FFF44F;
+    padding: 5px 10px;
 }
 
